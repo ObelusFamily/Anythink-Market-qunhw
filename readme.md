@@ -11,3 +11,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+You can verify docker is ready by running the following commands in your terminal: 
+docker -v 
+and 
+docker-compose -v.
+run docker-compose up from the root project
+#####Moving forward
+run all scripts in the next quests on one of the containers created by docker-compose up.  Also, you can use docker exec to run commands on a running container
